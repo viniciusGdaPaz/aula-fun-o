@@ -1,0 +1,29 @@
+programa
+{
+
+           real valor
+           cadeia moeda
+	
+	funcao inicio()
+	{
+		escreva("qual o valor?")
+		leia(valor)
+
+		escreva("qual a moeda?")
+		leia(moeda)
+
+		converteReal(valor,moeda)
+	}
+
+	funcao converteReal(real valor,cadeia moeda){
+
+		se(moeda=="dolar"){
+			
+			escreva("dolar : ",valor*0.19)
+			
+		}
+		se(moeda=="euro"){
+			escreva("euro: ",valor*0,18)
+		}
+	}
+	
